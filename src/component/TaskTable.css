@@ -1,0 +1,19 @@
+.checkbox {
+  width: 1%;
+}
+
+.tableContainer {
+  background: white;
+  border-radius: 5%;
+}
+
+.tableCard {
+  width: 100%;
+  margin-top: 20px;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icons {
+  float: right;
+}

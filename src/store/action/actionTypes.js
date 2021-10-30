@@ -1,0 +1,9 @@
+export const ADD_TASK = "ADD_TASK";
+export const EDIT_TASK = "EDIT_TASK";
+export const DELETE_TASK = "DELETE_TASK";
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const FETCH_DASHBOARD_SUCCESS = "FETCH_DASHBOARD_SUCCESS";
+export const FETCH_DASHBOARD_START = "FETCH_DASHBOARD_START";
+export const FETCH_TASKS_START = "FETCH_TASKS_START";
+export const FETCH_TASKS_SUCCESS = "FETCH_TASKS_SUCCESS";
