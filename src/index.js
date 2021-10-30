@@ -10,8 +10,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import reducer from "./store/reducer/reducer";
-//import orderReducer from './store/reducers/order';
-//import authReducer from './store/reducers/auth';
 
 const rootReducer = combineReducers({
   reducer,
