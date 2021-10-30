@@ -36,17 +36,6 @@ const reducer = (state = initialState, action) => {
     case actionTypes.FETCH_TASKS_SUCCESS:
       return { ...state, taskloading: false, tasks: action.taskData };
 
-    // case actionTypes.ADD_TASK: return {...state,tasks:[...state.tasks,action.payload]};
-    // case actionTypes.EDIT_TASK: return {...state,tasks:state.tasks.map((ele,idx)=>{
-    //   if(idx===action.payload.id){
-    //     let obj={...ele};
-    //     obj.name=action.payload.name;
-    //     obj.completed=action.payload.completed;
-    //     return obj;
-    //   }
-    // })};
-    // case actionTypes.DELETE_TASK: return {...state,tasks:state.tasks.filter((ele,idx)=>idx!==action.id)};
-
     default:
       return state;
   }
